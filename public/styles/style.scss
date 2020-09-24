@@ -1,0 +1,30 @@
+$title-font:    Helvetica, sans-serif;
+$primary-color: #FFF;
+$background-color: rgb(162, 162, 162);
+
+body {
+  font: $title-font;
+  color: $primary-color;
+  background-color: $background-color;
+}
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+
+  li {
+      padding: 3rem;
+      background-color: $primary-color;
+      color: #333;
+  }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+}
