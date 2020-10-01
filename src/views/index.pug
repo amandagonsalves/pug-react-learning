@@ -2,9 +2,18 @@ html
     head
         link(rel="stylesheet", href="../../public/styles/style.scss")
     body
-        h1 Ola
-        nav
-            ul
-                li
-                    a(href="#") ola link
-                li ola li    
+        .backdrop-menu
+        header
+            .container
+                img(src="../../public/images/kenoby.png" alt="").container__logo   
+                i.fa.fa-bars.container__icon-menu
+                ul.container__menu
+                    .container__menu-close
+                        i.fa.fa-times.container__icon-menu
+                        p.container__menu-text MENU
+                    a(href="#").container__menu-item Home
+                    a(href="#").container__menu-item Trabalhe conosco
+                    a(href="#").container__menu-item Contato
+                    a(href="#").container__menu-item Blog  
+                    #root
+script(src="../components/index.js")  
